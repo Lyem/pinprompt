@@ -4,7 +4,7 @@
 
 Chrome and Firefox extension that turns elements on a page into a prompt ready to paste into Claude, ChatGPT or any other AI. Works on any site and uses no server.
 
-[![Firefox Add-on](https://img.shields.io/badge/Firefox-Get%20the%20add--on-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/pinprompt/)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Add%20to%20Chrome-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/miibpoaeheilmgfmfipeeopobcppbknk) [![Firefox Add-on](https://img.shields.io/badge/Firefox-Get%20the%20add--on-FF7139?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/firefox/addon/pinprompt/)
 
 ## Usage
 
@@ -32,7 +32,7 @@ Annotations stay saved in the tab until it is closed. You can edit, delete or cl
 
 ## Install
 
-**Chrome / Chromium / Helium:** `chrome://extensions` → enable Developer mode → **Load unpacked** → pick this folder.
+**Chrome / Chromium / Helium:** install from the [Chrome Web Store](https://chromewebstore.google.com/detail/miibpoaeheilmgfmfipeeopobcppbknk). For development, open `chrome://extensions` → enable Developer mode → **Load unpacked** → pick this folder. To build the `.zip`: `npm run package:chrome`.
 
 **Firefox (142+):** install from [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/pinprompt/). For development, run `npm run build:firefox`, then open `about:debugging#/runtime/this-firefox` → **Load Temporary Add-on** → pick `dist/firefox/manifest.json`. To build the `.zip`: `npm run package:firefox`.
 
