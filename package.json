@@ -1,0 +1,15 @@
+{
+  "name": "pinprompt",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Click any element on a page, say what to change, and copy a clean Markdown prompt for Claude, ChatGPT or any AI.",
+  "scripts": {
+    "test": "node --test",
+    "build:firefox": "node scripts/build-firefox.mjs",
+    "lint:firefox": "npm run build:firefox && npx --yes web-ext lint --source-dir dist/firefox",
+    "package:firefox": "npm run build:firefox && npx --yes web-ext build --source-dir dist/firefox --artifacts-dir dist --overwrite-dest --filename pinprompt-firefox-{version}.zip",
+    "package:chrome": "node scripts/build-chrome.mjs",
+    "package": "npm run package:chrome && npm run package:firefox"
+  },
+  "license": "MIT"
+}
