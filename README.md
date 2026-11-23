@@ -61,4 +61,6 @@ Structure:
 
 ## Credits
 
+See [PRIVACY.md](PRIVACY.md) for the privacy policy.
+
 The prompt format and annotation logic are adapted from [Orca](https://github.com/stablyai/orca) (MIT, Lovecast Inc.). See `LICENSE`.

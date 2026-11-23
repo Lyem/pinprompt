@@ -61,4 +61,6 @@ Estrutura:
 
 ## Créditos
 
+Veja a política de privacidade em [PRIVACY.md](PRIVACY.md).
+
 O formato do prompt e a lógica de anotação foram adaptados do [Orca](https://github.com/stablyai/orca) (MIT, Lovecast Inc.). Veja `LICENSE`.
